@@ -7,17 +7,5 @@
 </head>
 <body>
     <h1>Hello, World!</h1>
-    <button onclick="sayHello()">Click Me!</button>
-
-    <!-- Inline JavaScript -->
-    <script>
-        // Install the JS Client in your storefront project: @medusajs/medusa-js
-
-import Medusa from "@medusajs/medusa-js"
-
-const medusa = new Medusa({ publishableApiKey: "pk_01J8YZXDSS8MW1S07316P5NKZJ"})
-const product = await medusa.products.retrieve("prod_01J8Z047WNBQ49N7F8VZ1EV1Z0")
-console.log(product.id)
-    </script>
 </body>
 </html>
