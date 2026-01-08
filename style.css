@@ -51,3 +51,9 @@ header {
 			text-decoration: none;
 			text-decoration-line: none;
 		}
+		.logo[href^="https://"][href*="github.com"]{
+			--logo: url("assets/favicons/github2.png");
+		}
+		.logo[href^="https://"][href*="github.com"]::after{
+			content: "" / "go to github"
+		}
