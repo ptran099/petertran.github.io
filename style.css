@@ -45,12 +45,13 @@ header {
             padding: 30px;
             background-color: rgb(255, 0, 200);
         }
-		.logo {
+/*		.logo {
 			width: 32px;
 			height: 32px;
 			text-decoration: none;
 			text-decoration-line: none;
 		}
+*/
 		.logo[href^="https://"][href*="github.com"]{
 			--logo: url("assets/favicons/github2.png");
 		}
