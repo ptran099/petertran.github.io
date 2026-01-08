@@ -57,4 +57,9 @@ header {
 		.logo[href^="https://"][href*="github.com"]::after{
 			content: "" / "go to github"
 		}
+		.logo[href^="https://"][href*="makerworld.com"]{
+			--logo: url('assets/favicons/makerworld.png');
+		}
 		.logo.printables{ --logo: url("assets/favicons/printables10.png") }
+		.logo.github{--log: url('assets/favicons/github2.png')}
+		.logo.makerworld{ --logo: url('assets/favicons/makerworld.png')}
