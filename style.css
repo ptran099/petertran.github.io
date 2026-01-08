@@ -58,3 +58,4 @@ header {
 		.logo[href^="https://"][href*="github.com"]::after{
 			content: "" / "go to github"
 		}
+		.logo.printables{ --logo: url("assets/favicons/printables10.png") }
