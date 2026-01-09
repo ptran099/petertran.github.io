@@ -35,7 +35,7 @@ header, footer {
         }
         h3::before , h3::after{
             content: "";
-            width: 40px;
+            width: 100px;
             height: 40px;
             background-image: url("assets/media/pb.gif");
             display: inline-block;
