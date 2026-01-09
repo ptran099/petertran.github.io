@@ -26,7 +26,7 @@ header, footer {
 		h2::before, h2::after {
 			content: "";
 			width: 100px;
-			height: 50px;
+			height: 100px;
 			background-image: url("assets/media/03.gif");
 			display: inline-block;
 		}
@@ -35,7 +35,7 @@ header, footer {
         }
         h3::before , h3::after{
             content: "";
-            width: 100px;
+            width: 40px;
             height: 40px;
             background-image: url("assets/media/pb.gif");
             display: inline-block;
