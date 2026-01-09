@@ -11,12 +11,12 @@ header, footer {
 	align-items: center;
 	justify-content: space-between;
 
-            padding: 25px;
-            color: #504746;
-            /* x,y,sharpness,color */
-            text-shadow: -10px -10px 10px #494368;
-            background-color: rgb(220, 0, 200);
-        }
+    padding: 25px;
+    color: #504746;
+    /* x,y,sharpness,color */
+    text-shadow: -10px -10px 10px #494368;
+    background-color: rgb(220, 0, 200);
+}
 		p {
 			padding: 0px;
 		}
@@ -33,7 +33,7 @@ header, footer {
         h3 {
             color: #F4B393;
         }
-        h3::before , h3::after{
+        h3::before, h3::after{
             content: "";
             width: 40px;
             height: 40px;
@@ -60,6 +60,12 @@ header, footer {
 			--logo: url('assets/favicons/makerworld.png');
 		}
 		*/
-		.logo.printables{ --logo: url("assets/favicons/printables10.png") }
-		.logo.github{--logo: url('assets/favicons/github2.png')}
-		.logo.makerworld{ --logo: url('assets/favicons/makerworld.png')}
+		.logo.printables{ 
+			--logo: url("assets/favicons/printables10.png")
+		}
+		.logo.github{
+			--logo: url('assets/favicons/github2.png')
+		}
+		.logo.makerworld{
+			--logo: url('assets/favicons/makerworld.png')
+		}
