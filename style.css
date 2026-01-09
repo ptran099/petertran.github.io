@@ -29,11 +29,11 @@ header {
 			display: inline-block;
 		}
 		h2::after {
+			content: "";
 			background-image: url("assets/media/o2.gif");
 		}
         h3 {
             color: #F4B393;
-
         }
         h3::before {
             content: "";
