@@ -5,13 +5,6 @@ body {
             margin: 0;
             padding: 0;
 }
-/*
-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-}
-*/
         header, footer {
 			display: flex;
 			align-items: center;
@@ -67,5 +60,5 @@ header {
 		}
 		*/
 		.logo.printables{ --logo: url("assets/favicons/printables10.png") }
-		.logo.github{--log: url('assets/favicons/github2.png')}
+		.logo.github{--logo: url('assets/favicons/github2.png')}
 		.logo.makerworld{ --logo: url('assets/favicons/makerworld.png')}
