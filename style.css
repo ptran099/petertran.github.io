@@ -28,6 +28,9 @@ header {
 			background-image: url("https://media.tenor.com/8hlbJybOlKUAAAAM/pixel-heart.gif");
 			display: inline-block;
 		}
+		h2::after {
+			background-image: url("assets/media/o2.gif");
+		}
         h3 {
             color: #F4B393;
 
