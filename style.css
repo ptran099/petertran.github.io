@@ -25,11 +25,14 @@ header {
         }
 		h2::before {
 			content: "";
-			background-image: url("https://media.tenor.com/8hlbJybOlKUAAAAM/pixel-heart.gif");
-			display: inline-block;
+			width: 40px;
+			height: 40px;
+			background-image: url("assets/media/o2.gif");
 		}
 		h2::after {
 			content: "";
+			width: 40px;
+			height: 40px;
 			background-image: url("assets/media/o2.gif");
 		}
         h3 {
