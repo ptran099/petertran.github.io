@@ -31,8 +31,8 @@ header {
         }
 		h2::before, h2::after {
 			content: "";
-			width: 100px;
-			height: 100px;
+			/*width: 100px;
+			height: 100px;*/
 			background-image: url("assets/media/03.gif");
 			display: inline-block;
 		}
