@@ -24,9 +24,11 @@ header {
             color: #CEEC97;
         }
 		h2::before {
+			content: "";
 			width:40px;
 			height:40px;
-			background-image: url("assets/media/h.gif"):
+			background-image: url("assets/media/h.gif");
+			display: inline-block;
 		}
         h3 {
             color: #F4B393;
