@@ -25,7 +25,7 @@ header {
         }
 		h2::before {
 			content: "";
-			background-image: url("assets/media/h.gif");
+			background-image: url("https://media.tenor.com/8hlbJybOlKUAAAAM/pixel-heart.gif");
 			display: inline-block;
 		}
         h3 {
