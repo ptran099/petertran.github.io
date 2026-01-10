@@ -25,7 +25,7 @@ header, footer {
         }
 		h2::before, h2::after {
 			content: "";
-			width: 83px;
+			width: 32px;
 			height: 28px;
 			background-image: url("assets/media/heart-ezgif.com-resize(1).gif");
 			display: inline-block;
