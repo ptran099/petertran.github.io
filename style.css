@@ -10,62 +10,71 @@ header, footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-
     padding: 25px;
     color: #504746;
-    /* x,y,sharpness,color */
-    text-shadow: -10px -10px 10px #494368;
+    text-shadow: -10px -10px 10px #494368;	/* x, y, sharpness, color */
     background-color: rgb(220, 0, 200);
 }
-		p {
-			padding: 0px;
-		}
-        h2 {
-            color: #CEEC97;
-        }
-		h2::before, h2::after {
-			content: "";
-			width: 52px;
-			height: 46px;
-			background-image: url("assets/media/heart-ezgif.com-resize(2).gif");
-			display: inline-block;
-		}
-        h3 {
-            color: #F4B393;
-        }
-        h3::before, h3::after{
-            content: "";
-            width: 33px;
-            height: 35px;
-            background-image: url("assets/media/pb.gif");
-            display: inline-block;
-        }
-        main {
-            padding: 30px;
-            background-color: rgb(255, 0, 200);
-        }
-		.logo {
-			width: 32px;
-			height: 32px;
-			text-decoration: none;
-		}
-		/*
-		.logo[href^="https://"][href*="github.com"]{
-			--logo: url("assets/favicons/github2.png");
-		}
-		.logo[href^="https://"][href*="github.com"]::after{
-			content: "" / "go to github"
-		}
-		.logo[href^="https://"][href*="makerworld.com"]{
-			--logo: url('assets/favicons/makerworld.png');
-		}
-		*/
-		.logo.printables{ 
-			--logo: url("assets/favicons/printables10.png")
-		}
-		.logo.github{
-			--logo: url('assets/favicons/github2.png')
-		}
-		.logo.makerworld{
-			--logo: url('assets/favicons/makerworld.png')
-		}
+
+p {
+	padding: 0px;
+}
+
+h2 {
+	color: #CEEC97;
+}
+
+h2::before, h2::after {
+	content: "";
+	width: 52px;
+	height: 46px;
+	background-image: url("assets/media/heart-ezgif.com-resize(2).gif");
+	display: inline-block;
+}
+
+h3 {
+	color: #F4B393;
+}
+
+h3::before, h3::after{
+	content: "";
+	width: 33px;
+	height: 35px;
+	background-image: url("assets/media/pb.gif");
+	display: inline-block;
+}
+
+main {
+	padding: 30px;
+	background-color: rgb(255, 0, 200);
+}
+
+.logo {
+	width: 32px;
+	height: 32px;
+	text-decoration: none;
+}
+
+/*
+.logo[href^="https://"][href*="github.com"]{
+	--logo: url("assets/favicons/github2.png");
+}
+.logo[href^="https://"][href*="github.com"]::after{
+	content: "" / "go to github"
+}
+.logo[href^="https://"][href*="makerworld.com"]{
+	--logo: url('assets/favicons/makerworld.png');
+}
+*/
+
+.logo.printables{ 
+	--logo: url("assets/favicons/printables10.png")
+}
+
+.logo.github{
+	--logo: url('assets/favicons/github2.png')
+}
+
+.logo.makerworld{
+	--logo: url('assets/favicons/makerworld.png')
+}
