@@ -5,22 +5,34 @@
 		url("assets/fonts/SF-Pro-Display-Semibold.otf") format("otf");
 }
 
+@font-face {
+	font-family: "sfprotextregular";
+	src:
+		urL("./assets/fonts/SF-Pro-Text-Regular.otf") format("otf");
+}
+
 body {
     /*font-family: Arial, sans-serif;*/
-	font-family: "sfprodisplaysemibold", sans-serif;
+	font-family: "sfprotextregular", sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
-header, footer {
+header {
+	font-family: "sfprodisplaysemibold", sans-serif;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-    padding: 25px;
+    padding: 0px 30px;
     color: #504746;
     text-shadow: -10px -10px 10px #494368;	/* x, y, sharpness, color */
     background-color: rgb(220, 0, 200);
+}
+
+footer {
+	padding: 0px 30px; /*top right bottom left*/
+	background-color: rgb(220, 0, 200);
 }
 
 p {
@@ -29,6 +41,7 @@ p {
 
 h2 {
 	color: #CEEC97;
+	padding: 0px 0px;
 }
 
 h2::before, h2::after {
@@ -41,6 +54,7 @@ h2::before, h2::after {
 
 h3 {
 	color: #F4B393;
+	padding: 0px 30px;
 }
 
 h3::before, h3::after{
@@ -51,8 +65,20 @@ h3::before, h3::after{
 	display: inline-block;
 }
 
+h4 {
+	padding: 0px 90px;
+}
+
+h5 {
+	padding: 0px 120px;
+}
+
+h6 {
+	padding: 0px 150px;
+}
+
 main {
-	padding: 30px;
+	padding: 0px 30px;
 	background-color: rgb(255, 0, 200);
 }
 
@@ -60,28 +86,4 @@ main {
 	width: 32px;
 	height: 32px;
 	text-decoration: none;
-}
-
-/*
-.logo[href^="https://"][href*="github.com"]{
-	--logo: url("assets/favicons/github2.png");
-}
-.logo[href^="https://"][href*="github.com"]::after{
-	content: "" / "go to github"
-}
-.logo[href^="https://"][href*="makerworld.com"]{
-	--logo: url('assets/favicons/makerworld.png');
-}
-*/
-
-.logo.printables{ 
-	--logo: url("assets/favicons/printables10.png")
-}
-
-.logo.github{
-	--logo: url('assets/favicons/github2.png')
-}
-
-.logo.makerworld{
-	--logo: url('assets/favicons/makerworld.png')
 }
