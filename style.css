@@ -1,6 +1,13 @@
 /* TODO: Refactor CSS to better categorize different parts of the body */
+@font-face {
+	font-family: "sfprodisplaysemibold";
+	src:
+		url("assets/fonts/SF-Pro-Display-Semibold.otf") format("otf");
+}
+
 body {
-    font-family: Arial, sans-serif;
+    /*font-family: Arial, sans-serif;*/
+	font-family: "sfprodisplaysemibold", sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
