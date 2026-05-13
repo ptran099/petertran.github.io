@@ -78,3 +78,13 @@ h4 {
 	height: 32px;
 	text-decoration: none;
 }
+
+td {
+	border: 1px solid black;
+}
+
+table{
+	border: 2px solid black;
+	/* remove double border, otherwise there would be a gap between table border and td elements border */
+	border-collapse: collapse;
+}
