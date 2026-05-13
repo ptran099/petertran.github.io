@@ -85,6 +85,9 @@ td {
 
 table{
 	border: 2px solid black;
-	/* remove double border, otherwise there would be a gap between table border and td elements border */
+	/*
+		remove double border, otherwise there would be a gap between table border and td elements border
+			https://www.w3schools.com/html/html_table_borders.asp
+	*/
 	border-collapse: collapse;
 }
