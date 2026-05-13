@@ -3,9 +3,6 @@
 	font-family: "sfprodisplaysemibold";
 	src:
 		url("assets/fonts/SF-Pro-Display-Semibold.otf") format("otf");
-}
-
-@font-face {
 	font-family: "sfprotextregular";
 	src:
 		urL("./assets/fonts/SF-Pro-Text-Regular.otf") format("otf");
@@ -14,12 +11,13 @@
 body {
     /*font-family: Arial, sans-serif;*/
 	font-family: "sfprotextregular", sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
+	/* box-sizing: border-box; */
 }
 
 header {
+	margin: 0;
 	font-family: "sfprodisplaysemibold", sans-serif;
 	display: flex;
 	align-items: center;
@@ -27,7 +25,13 @@ header {
     padding: 0px 30px;
     color: #504746;
     text-shadow: -10px -10px 10px #494368;	/* x, y, sharpness, color */
-    background-color: rgb(220, 0, 200);
+    background-color: rgb(255, 0, 255);
+}
+
+main {
+	margin: 0;
+	padding: 0px 30px;
+	background-color: rgb(255, 0, 200);
 }
 
 footer {
@@ -67,19 +71,6 @@ h3::before, h3::after{
 
 h4 {
 	padding: 0px 90px;
-}
-
-h5 {
-	padding: 0px 120px;
-}
-
-h6 {
-	padding: 0px 150px;
-}
-
-main {
-	padding: 0px 30px;
-	background-color: rgb(255, 0, 200);
 }
 
 .logo {
