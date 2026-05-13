@@ -1,19 +1,42 @@
 /* TODO: Refactor CSS to better categorize different parts of the body */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+@font-face {
+	font-family: "sfprodisplaysemibold";
+	src:
+		url("assets/fonts/SF-Pro-Display-Semibold.otf") format("otf");
+	font-family: "sfprotextregular";
+	src:
+		urL("./assets/fonts/SF-Pro-Text-Regular.otf") format("otf");
 }
 
-header, footer {
+body {
+    /*font-family: Arial, sans-serif;*/
+	font-family: "sfprotextregular", sans-serif;
+    margin: 0;
+    padding: 0;
+	/* box-sizing: border-box; */
+}
+
+header {
+	margin: 0;
+	font-family: "sfprodisplaysemibold", sans-serif;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-    padding: 25px;
+    padding: 0px 30px;
     color: #504746;
     text-shadow: -10px -10px 10px #494368;	/* x, y, sharpness, color */
-    background-color: rgb(220, 0, 200);
+    background-color: rgb(255, 0, 255);
+}
+
+main {
+	margin: 0;
+	padding: 0px 30px;
+	background-color: rgb(255, 0, 200);
+}
+
+footer {
+	padding: 0px 30px; /*top right bottom left*/
+	background-color: rgb(220, 0, 200);
 }
 
 p {
@@ -22,6 +45,7 @@ p {
 
 h2 {
 	color: #CEEC97;
+	padding: 0px 0px;
 }
 
 h2::before, h2::after {
@@ -34,6 +58,7 @@ h2::before, h2::after {
 
 h3 {
 	color: #F4B393;
+	padding: 0px 30px;
 }
 
 h3::before, h3::after{
@@ -44,9 +69,8 @@ h3::before, h3::after{
 	display: inline-block;
 }
 
-main {
-	padding: 30px;
-	background-color: rgb(255, 0, 200);
+h4 {
+	padding: 0px 90px;
 }
 
 .logo {
@@ -55,26 +79,15 @@ main {
 	text-decoration: none;
 }
 
-/*
-.logo[href^="https://"][href*="github.com"]{
-	--logo: url("assets/favicons/github2.png");
-}
-.logo[href^="https://"][href*="github.com"]::after{
-	content: "" / "go to github"
-}
-.logo[href^="https://"][href*="makerworld.com"]{
-	--logo: url('assets/favicons/makerworld.png');
-}
-*/
-
-.logo.printables{ 
-	--logo: url("assets/favicons/printables10.png")
+td {
+	border: 1px solid black;
 }
 
-.logo.github{
-	--logo: url('assets/favicons/github2.png')
-}
-
-.logo.makerworld{
-	--logo: url('assets/favicons/makerworld.png')
+table{
+	border: 2px solid black;
+	/*
+		remove double border, otherwise there would be a gap between table border and td elements border
+			https://www.w3schools.com/html/html_table_borders.asp
+	*/
+	border-collapse: collapse;
 }
